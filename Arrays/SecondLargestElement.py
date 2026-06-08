@@ -1,3 +1,9 @@
+#Problem: Second Largest Element in Array
+#Platform: Geeks For Geeks
+#Idea: Track largest and second largest while iterating once
+#Time complexity: O(n)
+#Space complexity: O(1)
+
 class Solution:
     def getSecondLargest(self, arr):
         largest = -1
